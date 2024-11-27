@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interacción con APIs</title>
+    <link rel="stylesheet" href="estilo_pagina2.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Interacción con APIs - Bienvenido </h1>
+    </header>
+    <main>
+        <!-- API para correo -->
+        <section id="email-section">
+            <h2 align="center">Enviar un Correo</h2>
+            <form id="email-form">
+                <input type="text" id="username" placeholder="Tu Nombre" required>
+                <input type="email" id="email" placeholder="Tu Correo" required>
+                <textarea id="message" placeholder="Escribe tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="email-status"></p>
+        </section>
+
+        <!-- API para ver imágenes de perros -->
+        <section id="images-section" align="center">
+            <h2>Imágenes Aleatorias de Perros</h2>
+            <button id="load-image">Cargar Imagen de Perro</button>
+            <div id="image-container"></div>
+        </section>
+
+        <!-- API de Cat Facts para obtener un hecho sobre gatos -->
+        <section id="cat-facts-section" align="center">
+            <h2>Hechos sobre Gatos</h2>
+            <button id="get-cat-fact">Obtener Hecho Aleatorio sobre Gatos</button>
+            <p id="cat-fact-result"></p>
+        </section>
+
+ <!-- Botones de Navegación -->
+<section id="navigation-buttons">
+    <h2>Navegación</h2>
+    <!-- Enlace a la Página de Inicio -->
+    <button onclick="window.location.href='index.html'">Inicio</button>
+    <!-- Enlace a la Página de Interacciones -->
+    <button onclick="window.location.href='pagina2.html'">Interacciones</button>
+    <!-- Enlace a la Página de Formulario -->
+    <button onclick="window.location.href='pagina3.html'">Formulario</button>
+    <!-- Enlace a la Página de Tabla -->
+    <button onclick="window.location.href='pagina4.html'">Tabla</button>
+    <!-- Enlace a la Página de Bienvenida -->
+    <button onclick="window.location.href='bienvenida.html'">Bienvenida</button>
+
+    <!-- Botón de Cerrar Sesión -->
+    <button onclick="window.location.href='index.html'" align="left">Cerrar Sesión</button>
+</section>
+
+    </main>
+    <script src="script_pagina2.js"></script>
+    <footer>
+        <p>&copy; Derechos reservado por Yanina - 2024</p>
+    </footer>
+</body>
+</html>

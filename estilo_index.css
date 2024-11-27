@@ -1,0 +1,57 @@
+body {
+    font-family: serif;
+    background-color: #f2c9e6; /* Rosa pastel suave */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #ffffff; /* Blanco */
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #6fa3d1; /* Azul pastel para el título */
+}
+
+label, input, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input {
+    border: 1px solid #d1b7d1; /* Color suave para bordes de los inputs */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f0f9; /* Color de fondo pastel suave para inputs */
+    color: #6fa3d1; /* Texto en color azul pastel */
+}
+
+button {
+    background: #a1c4fd; /* Azul pastel para el botón */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #79a1d0; /* Azul pastel más oscuro cuando pasa el mouse */
+}
+
+#loginMessage {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #d99dcb; /* Rosa pastel suave para el mensaje */
+}

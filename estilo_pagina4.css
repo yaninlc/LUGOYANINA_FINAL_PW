@@ -1,0 +1,89 @@
+/* Estilo general */
+body {
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f7f3e9; /* Fondo en tono claro dorado */
+}
+
+header {
+    background: #c99e59; /* Dorado cálido */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+    color: #c99e59; /* Título en dorado */
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: white;
+}
+
+thead th {
+    background-color: #c99e59; /* Cabecera dorada */
+    color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+thead th:hover {
+    background-color: #9e7a44; /* Color dorado más oscuro al pasar el ratón */
+    transform: scale(1.1); /* Aumenta el tamaño de la cabecera */
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #d4af37; /* Dorado brillante */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c99e59; /* Dorado más oscuro al pasar el ratón */
+    transform: scale(1.1);
+}
+
+/* Animación de encabezados */
+@keyframes pulse {
+    0%, 100% {
+        background-color: #d4af37; /* Dorado brillante */
+    }
+    50% {
+        background-color: #ffcc00; /* Amarillo dorado */
+    }
+}
+
+footer {
+    background-color: #c99e59; /* Fondo dorado cálido */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
